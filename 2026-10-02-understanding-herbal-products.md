@@ -1,0 +1,1 @@
+---\nlayout: post\ntitle: "Understanding Herbal Products: Ask Before You Buy"\ndate: 2026-10-02\ncategory: Wellness\n---\nBefore buying an herbal product, ask about ingredients, preparation, storage and precautions. If you take medicines, ask a qualified healthcare professional about possible interactions before starting a new herbal product.\n
