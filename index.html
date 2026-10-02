@@ -34,55 +34,8 @@ title: Pala Herbal Wellness
     <h2>Explore Our Latest Articles</h2>
 
   </div>
-</section><section class="intro" id="about">
-  <div class="container">
-    <p class="eyebrow">WELCOME TO PALA HERBAL WELLNESS</p>
-    <h2>Learn. Discover. Grow Naturally.</h2>
-    <p>
-      Pala Herbal Wellness is a growing resource for people interested in
-      herbs, botanicals, herbal teas and practical natural wellness.
-      Our goal is to make useful information simple and easy to understand.
-    </p>
-  </div>
-</section><section class="journal" id="journal">
-  <div class="container">
-    <p class="eyebrow">HERBAL JOURNAL</p>
-    <h2>Explore Our Latest Articles</h2>
-    <p class="section-intro">
-      Read practical guides and educational articles about herbs and wellness.
-    </p><div class="posts">
-  {% for post in site.posts %}
-  <article class="post-card">
-    <p class="meta">
-      {{ post.date | date: "%d %B %Y" }}
-      {% if post.category %} · {{ post.category }}{% endif %}
-    </p>
-
-    <h3>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h3>
-
-    <p>{{ post.excerpt | strip_html }}</p>
-
-    <a class="read-more" href="{{ post.url | relative_url }}">
-      Read article →
-    </a>
-  </article>
-  {% endfor %}
-</div>
-
-  </div>
-</section><section class="wellness-banner">
-  <div class="container">
-    <p class="eyebrow">PALA HERBAL WELLNESS</p>
-    <h2>Simple knowledge for a more natural lifestyle.</h2>
-    <p>
-      Explore our journal and continue learning about herbs,
-      botanicals and everyday wellness.
-    </p>
-    <a href="#journal" class="btn btn-primary">Read the Journal</a>
-  </div>
-</section>     <div class="journal-grid">
+     
+<div class="journal-grid">
       <article class="journal-card">
         <h3>Getting Started With Herbal Tea</h3>
         <p>
