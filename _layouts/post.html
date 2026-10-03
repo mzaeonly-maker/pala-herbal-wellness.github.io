@@ -1,1 +1,22 @@
 
+---
+layout: default
+---
+
+<article class="post">
+  <div class="section-inner">
+    <p class="eyebrow">{{ page.category }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>
+
+    <div class="post-content">
+      {{ content }}
+    </div>
+
+    <p>
+      <a href="{{ '/' | relative_url }}" class="btn btn-primary">
+        Back to Home
+      </a>
+    </p>
+  </div>
+</article>
