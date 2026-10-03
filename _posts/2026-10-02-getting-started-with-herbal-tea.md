@@ -3,6 +3,7 @@ layout: post
 title: "Getting Started With Herbal Tea"
 date: 2026-10-02
 category: Herbal Education
+permalink: /2026/10/02/getting-started-with-herbal-tea/
 ---
 
 # Getting Started With Herbal Tea
