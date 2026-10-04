@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding Herbal Wellness: What It Really Means"
-date: 2026-10-04
+date: 2026-10-02
 category: Herbal Education
 permalink: /2026/10/04/understanding-herbal-wellness/
 ---
