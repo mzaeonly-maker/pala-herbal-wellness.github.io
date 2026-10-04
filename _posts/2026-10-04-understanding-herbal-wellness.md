@@ -1,9 +1,9 @@
 ---
-
 layout: post
 title: "Understanding Herbal Wellness: What It Really Means"
 date: 2026-10-04
 category: Herbal Education
+permalink: /2026/10/04/understanding-herbal-wellness/
 ---
 
 Herbal wellness is about learning how plants and herbs have been used traditionally and understanding how they can fit into everyday wellness routines.
