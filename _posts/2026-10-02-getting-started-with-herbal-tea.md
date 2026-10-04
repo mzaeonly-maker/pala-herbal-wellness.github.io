@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Getting Started With Herbal Tea"
-date: 2026-10-02
+title: "Understanding Herbal Wellness: What It Really Means"
+date: 2026-10-04
 category: Herbal Education
-permalink: /2026/10/02/getting-started-with-herbal-tea/
+permalink: /2026/10/04/understanding-herbal-wellness/
 ---
 
 # Getting Started With Herbal Tea
