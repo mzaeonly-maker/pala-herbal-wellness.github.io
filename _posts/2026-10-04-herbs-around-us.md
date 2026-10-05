@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Herbs Around Us: Discovering Everyday Plants"
-date: 2026-10-04
+date: 2026-10-02
 category: Herbal Education
+permalink: /2026/10/04/herbs-around-us/
 ---
 
 Herbs are all around us. They can be found in gardens, kitchens, farms and local markets. Many plants have been used by different communities for generations as food, beverages, aromas and traditional wellness practices.
@@ -70,4 +71,4 @@ We will continue sharing simple educational information about herbs, herbal teas
 
 **Learn. Explore. Grow Naturally.**
 
-Pala Herbal Wellness — Natural wellness information, rooted in nature.
+*Pala Herbal Wellness — Natural wellness information, rooted in nature.*
