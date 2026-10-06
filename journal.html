@@ -1,285 +1,58 @@
-<!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pala Herbal Wellness | Herbal Journal</title>  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">  <style>
-    :root {
-      --forest: #164A32;
-      --deep-green: #0D3323;
-      --leaf: #2E7D50;
-      --sage: #E8F1EA;
-      --cream: #F8F6EF;
-      --white: #FFFFFF;
-      --text: #26352D;
-    }
+---
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+layout: default
+title: Herbal Journal
+permalink: /journal/
 
-    body {
-      font-family: "Manrope", sans-serif;
-      background: var(--cream);
-      color: var(--text);
-      line-height: 1.7;
-    }
+<section class="journal-page">
+  <div class="container"><p class="card-category">Herbal Education</p>
 
-    header {
-      background: var(--forest);
-      color: white;
-      padding: 24px 20px;
-    }
+<h1>Explore Our Herbal Journal</h1>
 
-    .header-inner {
-      max-width: 1100px;
-      margin: auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-    }
+<p class="journal-intro">
+  Discover practical, easy-to-understand articles about herbs,
+  herbal teas, traditional knowledge and everyday natural wellness.
+</p>
 
-    .brand {
-      font-family: "DM Serif Display", serif;
-      font-size: 28px;
-      color: white;
-      text-decoration: none;
-    }
+<div class="journal-grid">
 
-    nav {
-      display: flex;
-      gap: 22px;
-      flex-wrap: wrap;
-    }
+  <article class="journal-card">
+    <p class="card-category">Herbal Education</p>
+    <h2>Getting Started With Herbal Tea</h2>
+    <p>
+      Learn the basics of herbal tea, including simple preparation
+      ideas and practical tips for everyday wellness.
+    </p>
+    <a href="/2026/10/02/getting-started-with-herbal-tea/">
+      Read Article →
+    </a>
+  </article>
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 14px;
-    }
+  <article class="journal-card">
+    <p class="card-category">Herbal Education</p>
+    <h2>Understanding Herbal Wellness</h2>
+    <p>
+      Explore what herbal wellness means and how herbs can form part
+      of a thoughtful everyday wellness routine.
+    </p>
+    <a href="/2026/10/04/understanding-herbal-wellness/">
+      Read Article →
+    </a>
+  </article>
 
-    nav a:hover {
-      text-decoration: underline;
-    }
+  <article class="journal-card">
+    <p class="card-category">Herbal Education</p>
+    <h2>Physiotherapy Using Herbal Remedies</h2>
+    <p>
+      Learn about selected traditional herbal approaches that may
+      complement physical rehabilitation and everyday care.
+    </p>
+    <a href="/2026/10/06/physiotherapy-using-herbal-remedies/">
+      Read Article →
+    </a>
+  </article>
 
-    .container {
-      width: min(1100px, 92%);
-      margin: auto;
-    }
-
-    .journal-header {
-      text-align: center;
-      padding: 70px 10px 45px;
-    }
-
-    .journal-header .label {
-      color: var(--leaf);
-      font-weight: 800;
-      letter-spacing: 1.5px;
-      font-size: 13px;
-      margin-bottom: 12px;
-    }
-
-    .journal-header h1 {
-      font-family: "DM Serif Display", serif;
-      color: var(--deep-green);
-      font-size: clamp(36px, 6vw, 58px);
-      line-height: 1.15;
-      margin-bottom: 18px;
-    }
-
-    .journal-header p {
-      max-width: 700px;
-      margin: auto;
-      font-size: 17px;
-    }
-
-    .journal-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 26px;
-      padding-bottom: 70px;
-    }
-
-    .journal-card {
-      background: var(--white);
-      border-radius: 18px;
-      padding: 30px;
-      box-shadow: 0 8px 25px rgba(13, 51, 35, 0.08);
-      border: 1px solid #e2e9e3;
-    }
-
-    .journal-card .label {
-      color: var(--leaf);
-      font-size: 12px;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      margin-bottom: 10px;
-    }
-
-    .journal-card h2 {
-      font-family: "DM Serif Display", serif;
-      color: var(--deep-green);
-      font-size: 27px;
-      line-height: 1.25;
-      margin-bottom: 10px;
-    }
-
-    .date {
-      color: #718078;
-      font-size: 13px;
-      font-weight: 600;
-      margin-bottom: 14px;
-    }
-
-    .journal-card p {
-      margin-bottom: 18px;
-    }
-
-    .journal-card a {
-      display: inline-block;
-      color: var(--forest);
-      font-weight: 800;
-      text-decoration: none;
-    }
-
-    .journal-card a:hover {
-      color: var(--leaf);
-    }
-
-    footer {
-      background: var(--deep-green);
-      color: white;
-      text-align: center;
-      padding: 30px 20px;
-      font-size: 14px;
-    }
-
-    @media (max-width: 700px) {
-      .header-inner {
-        flex-direction: column;
-        text-align: center;
-      }
-
-      nav {
-        justify-content: center;
-        gap: 15px;
-      }
-
-      .journal-header {
-        padding-top: 45px;
-      }
-
-      .journal-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .journal-card {
-        padding: 24px;
-      }
-
-      .journal-card h2 {
-        font-size: 24px;
-      }
-    }
-  </style></head><body><header>
-  <div class="header-inner">
-    <a class="brand" href="/pala-herbal-wellness.github.io/">🌿 PALA HERBAL WELLNESS</a><nav>
-  <a href="/pala-herbal-wellness.github.io/">Home</a>
-  <a href="/pala-herbal-wellness.github.io/#about">About</a>
-  <a href="/pala-herbal-wellness.github.io/journal/">Herbal Journal</a>
-  <a href="/pala-herbal-wellness.github.io/#contact">Contact</a>
-</nav>
-
-  </div>
-</header><main>  <section class="journal-header">
-    <div class="container">
-      <p class="label">PALA HERBAL JOURNAL</p>  <h1>Explore Our Herbal Journal</h1>
-
-  <p>
-    Discover practical, easy-to-understand articles about herbs,
-    herbal teas, traditional knowledge and everyday natural wellness.
-  </p>
 </div>
 
-  </section>  <section>
-    <div class="container">
-      <div class="journal-grid">    <article class="journal-card">
-      <p class="label">Herbal Education</p>
-      <h2>5 Common Herbs Found in Kenya and Their Traditional Uses</h2>
-      <p class="date">October 06, 2026</p>
-      <p>
-        Explore five herbs commonly found in Kenya and learn about
-        their traditional uses and everyday importance.
-      </p>
-      <a href="/pala-herbal-wellness.github.io/2026/10/06/five-common-herbs-found-in-kenya/">
-        Read Article →
-      </a>
-    </article>
-
-    <article class="journal-card">
-      <p class="label">Herbal Education</p>
-      <h2>Physiotherapy and Herbal Remedies: A Complementary Approach</h2>
-      <p class="date">October 02, 2026</p>
-      <p>
-        Learn how herbal remedies may be considered alongside
-        physiotherapy and other rehabilitation approaches.
-      </p>
-      <a href="/pala-herbal-wellness.github.io/2026/10/05/physiotherapy-and-herbal-remedies/">
-        Read Article →
-      </a>
-    </article>
-
-    <article class="journal-card">
-      <p class="label">Herbal Education</p>
-      <h2>Understanding Herbal Wellness: What It Really Means</h2>
-      <p class="date">October 02, 2026</p>
-      <p>
-        Learn what herbal wellness means and how traditional plant
-        knowledge can fit into everyday wellness routines.
-      </p>
-      <a href="/pala-herbal-wellness.github.io/2026/10/04/understanding-herbal-wellness/">
-        Read Article →
-      </a>
-    </article>
-
-    <article class="journal-card">
-      <p class="label">Herbal Education</p>
-      <h2>Herbs Around Us: Discovering Everyday Plants</h2>
-      <p class="date">October 02, 2026</p>
-      <p>
-        Discover how herbs can be found in gardens, kitchens,
-        farms and local communities.
-      </p>
-      <a href="/pala-herbal-wellness.github.io/2026/10/04/herbs-around-us/">
-        Read Article →
-      </a>
-    </article>
-
-    <article class="journal-card">
-      <p class="label">Herbal Education</p>
-      <h2>Getting Started With Herbal Tea</h2>
-      <p class="date">October 02, 2026</p>
-      <p>
-        A simple introduction to herbal tea, preparation and
-        responsible everyday use.
-      </p>
-      <a href="/pala-herbal-wellness.github.io/2026/10/02/getting-started-with-herbal-tea/">
-        Read Article →
-      </a>
-    </article>
-
   </div>
-</div>
-
-  </section></main><footer>
-  <p>© 2026 Pala Herbal Wellness. All rights reserved.</p>
-  <p>Natural wellness information, rooted in nature.</p>
-</footer></body>
-</html>
+</section>
