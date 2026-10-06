@@ -1,48 +1,12 @@
----
+title: Pala Herbal Wellness
+description: Simple, practical information about herbs, botanicals, herbal teas and everyday natural wellness.
 
-layout: default
-title: Herbal Journal
----
+theme: minima
 
-<section class="journal-page">
-  <div class="section-inner"><p class="eyebrow">HERBAL JOURNAL</p>
+baseurl: "/pala-herbal-wellness.github.io"
 
-<h1>Explore Our Herbal Journal</h1>
+permalink: /:year/:month/:day/:title/
 
-<p class="journal-intro">
-  Discover practical, easy-to-understand articles about herbs,
-  herbal teas, traditional knowledge and everyday natural wellness.
-</p>
+plugins:
 
-<div class="journal-grid">
-
-  {% for post in site.posts %}
-
-  <article class="journal-card">
-
-    <p class="card-category">
-      {% if post.category %}
-        {{ post.category }}
-      {% else %}
-        Herbal Education
-      {% endif %}
-    </p>
-
-    <h2>{{ post.title }}</h2>
-
-    <p>
-      {{ post.excerpt | strip_html | truncate: 180 }}
-    </p>
-
-    <a href="{{ post.url | relative_url }}">
-      Read Article →
-    </a>
-
-  </article>
-
-  {% endfor %}
-
-</div>
-
-  </div>
-</section>
+- jekyll-feed
