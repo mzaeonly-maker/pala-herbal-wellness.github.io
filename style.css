@@ -843,3 +843,103 @@ padding: 22px 18px;
 padding: 22px 17px;
 }
 }
+/* ================================
+ABOUT PALA HERBAL WELLNESS
+================================ */
+
+.about-section {
+max-width: 1000px;
+margin: 70px auto;
+padding: 0 20px;
+}
+
+.about-content {
+padding: 45px;
+background: #ffffff;
+border: 1px solid #dfe9e1;
+border-radius: 20px;
+box-shadow: 0 10px 30px rgba(13, 51, 35, 0.07);
+}
+
+.about-section .section-heading {
+margin-bottom: 30px;
+text-align: left;
+}
+
+.about-section .section-heading h2 {
+max-width: 700px;
+}
+
+.about-text {
+max-width: 800px;
+}
+
+.about-text > p {
+margin-bottom: 18px;
+color: #53645a;
+font-size: 1rem;
+line-height: 1.8;
+}
+
+.about-highlight {
+display: flex;
+align-items: center;
+gap: 18px;
+margin: 30px 0;
+padding: 22px;
+background: var(--sage);
+border-radius: 15px;
+}
+
+.about-highlight > span {
+font-size: 2rem;
+}
+
+.about-highlight h3 {
+margin: 0 0 5px;
+color: var(--forest);
+font-family: "DM Serif Display", serif;
+font-size: 1.35rem;
+}
+
+.about-highlight p {
+margin: 0;
+color: #53645a;
+line-height: 1.6;
+}
+
+.about-note {
+padding-top: 20px;
+border-top: 1px solid #dfe9e1;
+font-size: 0.92rem !important;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+.about-section {
+margin: 50px auto;
+padding: 0 16px;
+}
+
+.about-content {
+padding: 28px 22px;
+border-radius: 16px;
+}
+
+.about-section .section-heading {
+margin-bottom: 22px;
+}
+
+.about-section .section-heading h2 {
+font-size: 2rem;
+}
+
+.about-text > p {
+font-size: 0.96rem;
+line-height: 1.75;
+}
+
+.about-highlight {
+padding: 18px;
+}
+}
