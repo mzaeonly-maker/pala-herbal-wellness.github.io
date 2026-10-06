@@ -1,0 +1,46 @@
+---
+
+layout: default
+title: Herbal Journal
+permalink: /journal/
+
+<section class="journal-page">
+  <div class="section-inner"><div class="section-heading">
+  <p class="eyebrow">PALA HERBAL JOURNAL</p>
+  <h1>Explore Our Herbal Journal</h1>
+  <p class="section-intro">
+    Discover practical, easy-to-understand articles about herbs,
+    herbal teas, traditional knowledge and everyday natural wellness.
+  </p>
+</div>
+
+<div class="journal-grid">
+
+  {% for post in site.posts %}
+  <article class="journal-card">
+
+    <p class="card-category">
+      {{ post.category }}
+    </p>
+
+    <h2>{{ post.title }}</h2>
+
+    <p class="post-date">
+      {{ post.date | date: "%B %d, %Y" }}
+    </p>
+
+    <p>
+      {{ post.excerpt | strip_html | truncatewords: 28 }}
+    </p>
+
+    <a href="{{ post.url }}">
+      Read Article →
+    </a>
+
+  </article>
+  {% endfor %}
+
+</div>
+
+  </div>
+</section>
