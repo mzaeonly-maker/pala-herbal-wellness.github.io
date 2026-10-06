@@ -1,48 +1,43 @@
 ---
-
 layout: default
 title: Herbal Journal
 ---
 
 <section class="journal-page">
-  <div class="section-inner"><p class="eyebrow">HERBAL JOURNAL</p>
 
-<h1>Explore Our Herbal Journal</h1>
+  <div class="journal-intro">
+    <p class="card-category">PALA HERBAL JOURNAL</p>
 
-<p class="journal-intro">
-  Discover practical, easy-to-understand articles about herbs,
-  herbal teas, traditional knowledge and everyday natural wellness.
-</p>
-
-<div class="journal-grid">
-
-  {% for post in site.posts %}
-
-  <article class="journal-card">
-
-    <p class="card-category">
-      {% if post.category %}
-        {{ post.category }}
-      {% else %}
-        Herbal Education
-      {% endif %}
-    </p>
-
-    <h2>{{ post.title }}</h2>
+    <h1>Explore Our Herbal Journal</h1>
 
     <p>
-      {{ post.excerpt | strip_html | truncate: 180 }}
+      Discover practical, easy-to-understand articles about herbs,
+      herbal teas, traditional knowledge and everyday natural wellness.
     </p>
+  </div>
 
-    <a href="{{ post.url | relative_url }}">
-      Read Article →
-    </a>
+  <div class="journal-grid">
 
-  </article>
+    {% for post in site.posts %}
 
-  {% endfor %}
+    <article class="journal-card">
 
-</div>
+      <p class="card-category">{{ post.category }}</p>
+
+      <h2>{{ post.title }}</h2>
+
+      <p>
+        {{ post.excerpt | strip_html | truncate: 160 }}
+      </p>
+
+      <a href="{{ post.url | relative_url }}">
+        Read Article →
+      </a>
+
+    </article>
+
+    {% endfor %}
 
   </div>
+
 </section>
