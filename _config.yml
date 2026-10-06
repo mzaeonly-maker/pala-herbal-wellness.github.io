@@ -8,5 +8,4 @@ baseurl: "/pala-herbal-wellness.github.io"
 permalink: /:year/:month/:day/:title/
 
 plugins:
-
-- jekyll-feed
+  - jekyll-feed
