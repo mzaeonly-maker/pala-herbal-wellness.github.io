@@ -2,10 +2,11 @@
 
 layout: default
 title: Herbal Journal
+permalink: /journal/
 ---
 
 <section class="journal-page">
-  <div class="container"><p class="card-category">Herbal Education</p>
+  <div class="section-inner"><p class="eyebrow">HERBAL JOURNAL</p>
 
 <h1>Explore Our Herbal Journal</h1>
 
@@ -16,41 +17,27 @@ title: Herbal Journal
 
 <div class="journal-grid">
 
-  <article class="journal-card">
-    <p class="card-category">Herbal Education</p>
-    <h2>Getting Started With Herbal Tea</h2>
-    <p>
-      Learn the basics of herbal tea, including simple preparation
-      ideas and practical tips for everyday wellness.
-    </p>
-    <a href="{{ '/2026/10/02/getting-started-with-herbal-tea/' | relative_url }}">
-      Read Article →
-    </a>
-  </article>
+  {% for post in site.posts %}
 
   <article class="journal-card">
-    <p class="card-category">Herbal Education</p>
-    <h2>Understanding Herbal Wellness</h2>
+
+    {% if post.category %}
+    <p class="card-category">{{ post.category }}</p>
+    {% endif %}
+
+    <h2>{{ post.title }}</h2>
+
     <p>
-      Explore what herbal wellness means and how herbs can form part
-      of a thoughtful everyday wellness routine.
+      {{ post.excerpt | strip_html | truncate: 160 }}
     </p>
-    <a href="{{ '/2026/10/04/understanding-herbal-wellness/' | relative_url }}">
+
+    <a href="{{ post.url | relative_url }}">
       Read Article →
     </a>
+
   </article>
 
-  <article class="journal-card">
-    <p class="card-category">Herbal Education</p>
-    <h2>Physiotherapy Using Herbal Remedies</h2>
-    <p>
-      Learn about selected traditional herbal approaches that may
-      complement physical rehabilitation and everyday care.
-    </p>
-    <a href="{{ '/2026/10/06/physiotherapy-using-herbal-remedies/' | relative_url }}">
-      Read Article →
-    </a>
-  </article>
+  {% endfor %}
 
 </div>
 
