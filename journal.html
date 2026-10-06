@@ -5,10 +5,10 @@ title: Herbal Journal
 permalink: /journal/
 
 <section class="journal-page">
-  <div class="section-inner"><div class="section-heading">
-  <p class="eyebrow">PALA HERBAL JOURNAL</p>
+  <div class="container"><div class="journal-header">
+  <p class="card-category">PALA HERBAL JOURNAL</p>
   <h1>Explore Our Herbal Journal</h1>
-  <p class="section-intro">
+  <p>
     Discover practical, easy-to-understand articles about herbs,
     herbal teas, traditional knowledge and everyday natural wellness.
   </p>
@@ -16,29 +16,70 @@ permalink: /journal/
 
 <div class="journal-grid">
 
-  {% for post in site.posts %}
   <article class="journal-card">
-
-    <p class="card-category">
-      {{ post.category }}
-    </p>
-
-    <h2>{{ post.title }}</h2>
-
-    <p class="post-date">
-      {{ post.date | date: "%B %d, %Y" }}
-    </p>
-
+    <p class="card-category">Herbal Education</p>
+    <h2>5 Common Herbs Found in Kenya and Their Traditional Uses</h2>
+    <p class="article-date">October 06, 2026</p>
     <p>
-      {{ post.excerpt | strip_html | truncatewords: 28 }}
+      Explore five herbs commonly found in Kenya and learn about
+      their traditional uses and everyday importance.
     </p>
-
-    <a href="{{ post.url }}">
+    <a href="/2026/10/06/five-common-herbs-found-in-kenya/">
       Read Article →
     </a>
-
   </article>
-  {% endfor %}
+
+  <article class="journal-card">
+    <p class="card-category">Herbal Education</p>
+    <h2>Physiotherapy and Herbal Remedies: A Complementary Approach</h2>
+    <p class="article-date">October 02, 2026</p>
+    <p>
+      Learn how herbal remedies may be considered alongside
+      physiotherapy and other rehabilitation approaches.
+    </p>
+    <a href="/2026/10/05/physiotherapy-and-herbal-remedies/">
+      Read Article →
+    </a>
+  </article>
+
+  <article class="journal-card">
+    <p class="card-category">Herbal Education</p>
+    <h2>Understanding Herbal Wellness: What It Really Means</h2>
+    <p class="article-date">October 02, 2026</p>
+    <p>
+      Learn what herbal wellness means and how traditional plant
+      knowledge can fit into everyday wellness routines.
+    </p>
+    <a href="/2026/10/04/understanding-herbal-wellness/">
+      Read Article →
+    </a>
+  </article>
+
+  <article class="journal-card">
+    <p class="card-category">Herbal Education</p>
+    <h2>Herbs Around Us: Discovering Everyday Plants</h2>
+    <p class="article-date">October 02, 2026</p>
+    <p>
+      Discover how herbs can be found in gardens, kitchens, farms
+      and local communities.
+    </p>
+    <a href="/2026/10/04/herbs-around-us/">
+      Read Article →
+    </a>
+  </article>
+
+  <article class="journal-card">
+    <p class="card-category">Herbal Education</p>
+    <h2>Getting Started With Herbal Tea</h2>
+    <p class="article-date">October 02, 2026</p>
+    <p>
+      A simple introduction to herbal tea, preparation and
+      responsible everyday use.
+    </p>
+    <a href="/2026/10/02/getting-started-with-herbal-tea/">
+      Read Article →
+    </a>
+  </article>
 
 </div>
 
