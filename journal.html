@@ -2,7 +2,6 @@
 
 layout: default
 title: Herbal Journal
-permalink: /journal/
 ---
 
 <section class="journal-page">
@@ -21,14 +20,18 @@ permalink: /journal/
 
   <article class="journal-card">
 
-    {% if post.category %}
-    <p class="card-category">{{ post.category }}</p>
-    {% endif %}
+    <p class="card-category">
+      {% if post.category %}
+        {{ post.category }}
+      {% else %}
+        Herbal Education
+      {% endif %}
+    </p>
 
     <h2>{{ post.title }}</h2>
 
     <p>
-      {{ post.excerpt | strip_html | truncate: 160 }}
+      {{ post.excerpt | strip_html | truncate: 180 }}
     </p>
 
     <a href="{{ post.url | relative_url }}">
