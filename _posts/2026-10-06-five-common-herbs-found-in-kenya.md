@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 Common Herbs Found in Kenya and Their Traditional Uses"
-date: 2026-10-02
+date: 2026-10-06
 category: Herbal Education
 permalink: /2026/10/06/five-common-herbs-found-in-kenya/
 ---
