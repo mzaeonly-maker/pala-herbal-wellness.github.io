@@ -1,1 +1,0 @@
----\nlayout: post\ntitle: "How to Store Dried Herbs at Home"\ndate: 2026-10-02\ncategory: Herbal Tips\n---\nKeep dried herbs in a clean, dry, closed container away from direct sunlight, heat and moisture. If a product develops an unusual smell, visible mould or unexpected moisture, do not use it.\n
