@@ -8,6 +8,7 @@ theme: minima
 
 permalink: /:year/:month/:day/:title/
 
+future: true
+
 plugins:
   - jekyll-feed
-  future: true
