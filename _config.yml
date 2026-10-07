@@ -1,10 +1,10 @@
 title: Pala Herbal Wellness
+url: "https://mzaeonly-maker.github.io"
+baseurl: "/pala-herbal-wellness.github.io"
 
 description: Simple, practical information about herbs, botanicals, herbal teas and everyday natural wellness.
 
 theme: minima
-
-baseurl: "/pala-herbal-wellness.github.io"
 
 permalink: /:year/:month/:day/:title/
 
