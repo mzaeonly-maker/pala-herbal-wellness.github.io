@@ -10,3 +10,4 @@ permalink: /:year/:month/:day/:title/
 
 plugins:
   - jekyll-feed
+  future: true
