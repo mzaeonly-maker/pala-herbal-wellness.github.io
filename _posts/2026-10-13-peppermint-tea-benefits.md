@@ -6,6 +6,7 @@ date: 2026-10-13
 category: Herbal Education
 description: "Learn about peppermint tea benefits, traditional uses, how to prepare peppermint tea and important safety considerations."
 permalink: /2026/10/13/peppermint-tea-benefits/
+
 ---
 
 What Is Peppermint Tea?
