@@ -1734,23 +1734,22 @@ padding: 0 15px;
 font-size: 2.25rem;
 }
 }
-/* Homepage image: balanced size without cropping */
+/* PALA HERBAL WELLNESS
+   Balanced wide homepage image */
 
 .hero img {
   display: block;
   width: 100%;
   height: 340px;
-  max-width: 100%;
   object-fit: contain;
-  object-position: center center;
-  margin: 0 auto;
+  object-position: center;
+  background-color: #F8F6EF;
   border-radius: 16px;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
   .hero img {
     height: 280px;
-    width: 100%;
-    object-fit: contain;
   }
 }
