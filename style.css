@@ -1734,23 +1734,41 @@ padding: 0 15px;
 font-size: 2.25rem;
 }
 }
-/* Pala Herbal Wellness - Homepage Hero Image */
-.hero-image {
+/* =====================================
+   PALA HERBAL WELLNESS - HOMEPAGE IMAGE
+   Show the complete image without cropping
+   ===================================== */
+
+.hero img {
   display: block;
   width: 100%;
-  max-width: 850px;
-  height: 360px;
-  object-fit: cover;
-  object-position: center top;
-  margin: 32px auto 0;
-  border-radius: 18px;
-  box-shadow: 0 12px 30px rgba(13, 51, 35, 0.12);
+  height: auto;
+  max-width: 100%;
+  max-height: none;
+  object-fit: contain;
+  object-position: center center;
+  margin: 0 auto;
+  border-radius: 16px;
 }
 
-@media (max-width: 600px) {
-  .hero-image {
-    height: 230px;
-    margin-top: 24px;
-    border-radius: 12px;
+/* Keep the image container from cutting off the cup */
+
+.hero,
+.hero-image,
+.hero picture,
+.hero figure {
+  height: auto;
+  max-height: none;
+  overflow: visible;
+}
+
+/* Make the image fit smaller screens */
+
+@media (max-width: 768px) {
+  .hero img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
   }
 }
