@@ -1820,3 +1820,22 @@ article img {
   }
 }
 
+/* Homepage hero image */
+.hero-image {
+  display: block;
+  width: 100%;
+  height: 320px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 16px;
+  margin: 0 auto;
+  background-color: #F8F6EF;
+}
+
+@media (max-width: 768px) {
+  .hero-image {
+    height: 260px;
+  }
+}
+
+
