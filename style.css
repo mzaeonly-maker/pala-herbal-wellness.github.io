@@ -1753,3 +1753,70 @@ font-size: 2.25rem;
     height: 280px;
   }
 }
+
+/* =====================================
+   PALA HERBAL WELLNESS
+   GENERAL IMAGE SYSTEM
+   ===================================== */
+
+/* General images across the website */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Homepage hero image */
+.hero img {
+  width: 100%;
+  height: 320px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 16px;
+  margin: 0 auto;
+  background-color: #F8F6EF;
+}
+
+/* Journal and article card images */
+.journal-card img,
+.article-card img,
+.post-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+}
+
+/* Images inside articles */
+.post-content img,
+.article-content img,
+article img {
+  width: 100%;
+  height: auto;
+  max-height: 560px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 14px;
+  margin: 24px auto;
+}
+
+/* Responsive images on mobile phones */
+@media (max-width: 768px) {
+  .hero img {
+    height: 260px;
+  }
+
+  .journal-card img,
+  .article-card img,
+  .post-card img {
+    height: 190px;
+  }
+
+  .post-content img,
+  .article-content img,
+  article img {
+    max-height: 420px;
+  }
+}
+
