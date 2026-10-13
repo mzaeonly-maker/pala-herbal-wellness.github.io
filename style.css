@@ -1734,100 +1734,82 @@ padding: 0 15px;
 font-size: 2.25rem;
 }
 }
-/* PALA HERBAL WELLNESS
-   Balanced wide homepage image */
 
-.hero img {
-  display: block;
-  width: 100%;
-  height: 340px;
-  object-fit: contain;
-  object-position: center;
-  background-color: #F8F6EF;
-  border-radius: 16px;
-  margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-  .hero img {
-    height: 280px;
-  }
-}
-
-/* =====================================
+/* =========================================
    PALA HERBAL WELLNESS
-   GENERAL IMAGE SYSTEM
-   ===================================== */
+   ONE-TIME REUSABLE IMAGE SYSTEM
+   ========================================= */
 
-/* General images across the website */
+/* General images */
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* Homepage hero image */
-.hero img {
-  width: 100%;
-  height: 320px;
-  object-fit: contain;
-  object-position: center;
-  border-radius: 16px;
-  margin: 0 auto;
-  background-color: #F8F6EF;
-}
-
-/* Journal and article card images */
-
-/* Homepage hero image */
+/* Homepage image: preserve the whole cup */
+.hero .hero-image,
 .hero-image {
-  display: block;
-  width: 100%;
-  height: 320px;
-  object-fit: contain;
-  object-position: center;
-  border-radius: 16px;
-  margin: 0 auto;
-  background-color: #F8F6EF;
-}
-
-@media (max-width: 768px) {
-  .hero-image {
-    height: 260px;
-  }
-}
-
-/* Homepage main image */
-.hero-image {
-  display: block;
-  width: 100%;
-  height: 320px;
-  object-fit: cover;
-  object-position: center center;
-  border-radius: 16px;
-  margin: 0 auto;
-}
-
-/* Homepage image on mobile phones */
-@media (max-width: 768px) {
-  .hero-image {
-    height: 280px;
-    object-fit: cover;
-    object-position: center center;
-  }
-}
-
-/* FINAL HOMEPAGE IMAGE FIX */
-.hero .hero-image {
   display: block;
   width: 100%;
   height: auto;
   max-height: none;
-  object-fit: fill;
+  object-fit: contain;
   object-position: center;
   background: transparent;
   border-radius: 16px;
   margin: 0 auto;
 }
+
+/* Herbal Journal cards */
+.journal-card img,
+.article-card img,
+.post-card img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+  margin: 0 0 20px;
+}
+
+/* Images inside individual articles */
+.post-content img,
+.article-content img,
+.post-article img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 560px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 14px;
+  margin: 24px auto;
+}
+
+/* Mobile image adjustments */
+@media (max-width: 768px) {
+  .hero .hero-image,
+  .hero-image {
+    width: 100%;
+    height: auto;
+    max-height: none;
+  }
+
+  .journal-card img,
+  .article-card img,
+  .post-card img {
+    height: 190px;
+  }
+
+  .post-content img,
+  .article-content img,
+  .post-article img {
+    max-height: 420px;
+  }
+}
+
 
 
