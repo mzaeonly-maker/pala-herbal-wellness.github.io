@@ -8,8 +8,8 @@ description: "Learn how to store dried herbs properly, protect them from moistur
 permalink: /2026/10/14/how-to-store-dried-herbs/
 ---
 <div class="article-image">
-  <img src="/pala-herbal-wellness.github.io/pexels-taha-balta-3031128-4834332.jpg"
-       alt="Dried herbs stored carefully to preserve their freshness"
+  <img src="/pala-herbal-wellness.github.io/images/pexels-taha-balta-3031128-4834332.jpg"
+       alt="Dried herbs stored carefully to preserve freshness"
        loading="lazy">
 </div>
 
