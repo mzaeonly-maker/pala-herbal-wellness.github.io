@@ -6,7 +6,7 @@ category: Herbal Education
 permalink: /2026/10/06/five-common-herbs-found-in-kenya/
 ---
 <div class="article-image">
-  <img src="/pala-herbal-wellness.github.io/file_0000000044ec82118850fa2fdf3dc3c1.png"
+  <img src="/pala-herbal-wellness.github.io/images/file_0000000044ec82118850fa2fdf3dc3c1.png"
        alt="Five common herbs found in Kenya"
        loading="lazy">
 </div>
