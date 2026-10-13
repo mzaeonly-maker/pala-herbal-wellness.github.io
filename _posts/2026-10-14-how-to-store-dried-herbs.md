@@ -6,6 +6,12 @@ date: 2026-10-14
 category: Herbal Education
 description: "Learn how to store dried herbs properly, protect them from moisture and sunlight, maintain their quality and recognise signs of spoilage."
 permalink: /2026/10/14/how-to-store-dried-herbs/
+---
+<div class="article-image">
+  <img src="/pala-herbal-wellness.github.io/pexels-taha-balta-3031128-4834332.jpg"
+       alt="Dried herbs stored carefully to preserve their freshness"
+       loading="lazy">
+</div>
 
 Why Proper Herb Storage Matters
 
