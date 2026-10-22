@@ -5,20 +5,16 @@ title: Herbal Journal
 permalink: /journal/
 ---
 
+<section class="journal-page">
 
-<section class="journal">
+  <div class="journal-intro">
+    <p class="card-category">PALA HERBAL JOURNAL</p>
 
-  <div class="section-heading">
-    <p class="eyebrow">PALA HERBAL JOURNAL</p>
+    <h1>Explore Our Herbal Journal</h1>
 
-    <h1 style="font-size:clamp(2.4rem,6vw,4rem);">
-      Explore Our Herbal Journal
-    </h1>
-
-    <p class="section-intro">
+    <p>
       Discover practical, easy-to-understand articles about herbs,
       herbal teas, traditional knowledge and everyday natural wellness.
-      Learn something natural, useful and inspiring with every read.
     </p>
   </div>
 
@@ -28,53 +24,12 @@ permalink: /journal/
 
     <article class="journal-card">
 
-      {% assign article_url = post.url | downcase %}
+      <p class="card-category">{{ post.category }}</p>
 
-      {% if article_url contains 'how-to-choose-herbal-products' %}
-
-        <img
-          src="https://images.unsplash.com/photo-1674141833226-9a28eb5935b4?auto=format&fit=crop&w=900&q=80"
-          alt="Dried herbal ingredients for choosing quality herbal products"
-          loading="lazy">
-
-      {% elsif article_url contains 'herbal-tea-vs-green-tea' %}
-
-        <img
-          src="https://images.unsplash.com/photo-1773479089546-49ff98325518?auto=format&fit=crop&w=900&q=80"
-          alt="A cup of herbal tea with fresh mint leaves"
-          loading="lazy">
-
-      {% elsif article_url contains 'how-to-store-dried-herbs' %}
-
-        <img
-          src="{{ '/images/pexels-taha-balta-3031128-4834332.jpg' | relative_url }}"
-          alt="Dried herbs stored for everyday use"
-          loading="lazy">
-
-      {% elsif article_url contains 'peppermint-tea-benefits' %}
-
-        <img
-          src="https://images.unsplash.com/photo-1694978577833-4fbf515e23ef?auto=format&fit=crop&w=900&q=80"
-          alt="Green peppermint leaves and water"
-          loading="lazy">
-
-      {% else %}
-
-        <img
-          src="{{ '/swarnim-doegar-WcVLb9HIMrk-unsplash.jpg' | relative_url }}"
-          alt="Herbal tea with mint leaves"
-          loading="lazy">
-
-      {% endif %}
-
-      <p class="card-category">
-        {{ post.category | default: "HERBAL EDUCATION" }}
-      </p>
-
-      <h3>{{ post.title }}</h3>
+      <h2>{{ post.title }}</h2>
 
       <p>
-        {{ post.excerpt | strip_html | normalize_whitespace | truncate: 160 }}
+        {{ post.excerpt | strip_html | truncate: 160 }}
       </p>
 
       <a href="{{ post.url | relative_url }}">
